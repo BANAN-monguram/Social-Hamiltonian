@@ -1,0 +1,44 @@
+# Environments
+.env
+.venv
+node_modules/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.exe
+*.obj
+*.o
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large data dumps (Results should be tracked in data/ but not massive logs)
+/data/logs/*
+!/data/results/
+!/data/plots/
+
+# AI/Agent Meta files
+.metadata.json
+*.resolved*
+.antigravity/
+.gemini/
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo

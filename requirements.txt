@@ -1,0 +1,11 @@
+# Dependencies for the CSCT Simulation Audit Package
+# Ensure you are using Python 3.10 or higher.
+
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+networkx>=3.0
+pandas>=2.0.0
+# Note: For real hardware execution (optional), uncomment the lines below:
+# qiskit>=0.44.0
+# dwave-system>=1.20.0
